@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>map</title>
+  <link rel="stylesheet" href="../../reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+  <!--HEADER START -->
+  <header class="header">
+    <h1 class="title">PetStory Online</h1>
+    <div class="wrapper">
+      <a href="../../petstory.html" class="logo">
+        <img class="logo__pick" src="../../assets/icons/petstory/logo.svg" alt="petstory-online">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item ">
+            <a href="../../petstory.html" class="header__nav-link">About</a>
+          </li>
+          <li class="header__nav-item header__nav-item_active">
+            <a href="map.html" class="header__nav-link">Map</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../zoos/panda/cam_panda_online.html" class="header__nav-link">Zoos</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#! " class="header__nav-link">Contact us</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="header__nav-link">Designed by ©</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__burger">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </div>
+    </div>
+  </header>
+<!-- HEADER FINISH -->
+<!-- MAP START -->
+  <main class="main">
+    <div class="container">
+      <div class="map">
+        <ul class="map__countries">
+          <li class="map__usa"><span class="countrie-title inner-text ">United States</span></li>
+          <li class="map__china"><span class="countrie-title inner-text">China</span></li>
+          <li class="map__congo"><span class="countrie-title inner-text">Congo</span></li>
+        </ul>
+        <figure class="map__place-losangeles">
+          <div class="map__place-pic">
+            <img class="map__place-img  inner" zoo="1" src="../../assets/icons/map/FISHKA.svg" alt="Los Angeles">
+          </div>
+          <figcaption class="map__place-name inner-text">Los Angeles</figcaption>
+        </figure>
+        <figure class="map__place-florida">
+          <div class="map__place-pic">
+            <img class="map__place-img inner" zoo="2" src="../../assets/icons/map/FISHKA.svg" alt="Florida">
+          </div>
+          <figcaption class="map__place-name inner-text">Florida</figcaption>
+        </figure>
+        <figure class="map__place-congo">
+          <div class="map__place-pic">
+            <img class="map__place-img inner" zoo="3" src="../../assets/icons/map/FISHKA.svg" alt="congo">
+          </div>
+        </figure>
+        <figure class="map__place-china1">
+          <div class="map__place-pic">
+            <img class="map__place-img inner" zoo="4" src="../../assets/icons/map/FISHKA.svg" alt="china1">
+          </div>
+        </figure>
+        <figure class="map__place-china2">
+          <div class="map__place-pic">
+            <img class="map__place-img inner" zoo="5" src="../../assets/icons/map/FISHKA.svg" alt="china2">
+          </div>
+        </figure>
+        <ul class="map__animals">
+          <li class="map__eagle inner">
+            <div class="map__info" zoo="1">
+              <div class="map__tooltip">
+                <p>Eagles<br>Los Angeles, USA</p>
+                <a  href="../zoos/eagle/cam_eagle_online.html" class="map__tooltip-button">whatch online</a>
+              </div>
+            </div>
+          </li>
+          <li class="map__aligator inner">
+            <div class="map__info" zoo="2">
+              <div class="map__tooltip">
+                <p>Alligators<br>Florida, USA</p>
+                <a  href="../zoos/alligator/cam_alligator_online.html" class="map__tooltip-button">whatch online</a>
+              </div>
+            </div>
+          </li>
+          <li class="map__gorilla inner">
+            <div class="map__info" zoo="3">
+              <div class="map__tooltip">
+                <p>Gorillas<br>Brazzaville, Congo</p>
+                <a  href="../zoos/gorilla/cam_gorilla_online.html" class="map__tooltip-button">whatch online</a>
+              </div>
+            </div>
+          </li>
+          <li class="map__panda1 inner">
+            <div class="map__info" zoo="4">
+              <div class="map__tooltip">
+                <p>Panda<br>Beijing, China</p>
+                <a  href="../zoos/panda/cam_panda_online.html" class="map__tooltip-button">whatch online</a>
+              </div>
+            </div>
+          </li>
+          <li class="map__panda2 inner">
+            <div class="map__info" zoo="5">
+              <div class="map__tooltip">
+                <p>Pandas<br>Hong Kong, China</p>
+                <a  href="../zoos/panda/cam_panda_online.html" class="map__tooltip-button">whatch online</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <aside class="map__zoom">
+        <a href="#! " class="map__zoom-in"></a>
+        <a href="#! " class="map__zoom-out"></a>
+      </aside>
+    </div>
+  </main>
+  <!-- MAP FINISH -->
+  <!--  FOOTER START -->
+  <footer class="footer">
+    <div class="wrapper">
+      <a href="map.html" class="footer__logo">
+        <div class="footer__logo-img"></div>
+      </a>
+      <form class="footer__email-form">
+        <label class="footer__subscribe-title">Subscribe to our news</label>
+        <fieldset class="footer__email-form-wrap">
+          <input type="email" name="userEmail" class="footer__email-form-field" required placeholder="Enter your email">
+          <input type="submit" class="footer__email-form-submit footer__email-form-submit_mistake" value="Submit"></input>
+        </fieldset>
+      </form>
+      <div class="footer__donate-button-wrapper">
+        <a  href="../donate/donate.html" class="footer__donate-button">donate for volunteers</a>
+      </div>
+      <ul class="footer__social">
+        <li class="footer__social-item">
+          <a href="https://www.facebook.com" class="footer__facebook">Facebook</a>
+        </li>
+        <li class="footer__social-item">
+          <a href="https://twitter.com" class="footer__twitter">Twitter</a>
+        </li>
+        <li class="footer__social-item">
+          <a href="https://www.instagram.com" class="footer__instagram">Instagram</a>
+        </li>
+        <li class="footer__social-item">
+          <a href="https://www.youtube.com" class="footer__youtube">YouTube</a>
+        </li>
+      </ul>
+      <nav class="footer__nav">
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item">
+            <a href="../../petstory.html" class="footer__nav-link">About</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="map.html" class="footer__nav-link footer__nav-item_active">Map</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="../zoos/panda/cam_panda_online.html" class="footer__nav-link">Zoos</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#! " class="footer__nav-link">Contact us</a>
+          </li>
+          <li class="footer__nav-item" id="nav-designed">
+          <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="footer__nav-link"><span class="footer__author">Designed by Alisa Samborskaya ©RSSchool & ©Yem Digital 2021</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <!--  FOOTER FINISH -->
+  <script src="map.js"></script>
+</body>
+</html>
